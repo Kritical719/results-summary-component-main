@@ -1,0 +1,110 @@
+:root {
+
+    /** Primarios**/
+    --LightRed: hsl(0, 100%, 67%);
+    --OrangeyYellow: hsl(39, 100%, 56%);
+    --GreenTeal: hsl(166, 100%, 37%);
+    --CobaltBlue: hsl(234, 85%, 45%);
+
+    /**Background**/
+
+    --LightSlateBlue: hsl(252, 100%, 67%);
+    --LightRoyalBlue: hsl(241, 81%, 54%);
+
+    /**Circle**/
+
+    --VioletBlue: hsla(256, 72%, 46%, 1);
+    --PersianBlue: hsla(241, 72%, 46%, 0);
+
+    /**Neutral Colors**/
+
+    --White: hsl(0, 0%, 100%);
+    --PaleBlue: hsl(221, 100%, 96%);
+    --LightLavender: hsl(241, 100%, 89%);
+    --DarkGrayBlue: hsl(224, 30%, 27%);
+
+    --fuentePrincipal: 'Hanken Grotesk', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.card {
+    display: flex;
+    background-color: var(--White);
+    height: 50%;
+    width: 35%;
+    border-radius: 5%;
+}
+
+.bloque_1 {
+    display: flex;
+    background-image: linear-gradient(to bottom, var(--LightSlateBlue), var(--LightRoyalBlue));
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: var(--fuentePrincipal);
+}
+
+.marco {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--LightLavender);
+
+}
+
+.circulo_1 {
+    display: flex;
+    background-color: var(--VioletBlue);
+    height: 30%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--PaleBlue);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.circulo_1_different {
+    color: var(--LightLavender);
+    display: flex;
+    font-size: 15px;
+
+}
