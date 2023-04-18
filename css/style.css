@@ -68,6 +68,8 @@ h1,
 h2,
 h3 {
     font-family: var(--fuentePrincipal);
+    
+    
 }
 
 .marco {
@@ -90,6 +92,7 @@ h3 {
 
 .circulo_1 {
     display: flex;
+    flex-direction: column;
     background-color: var(--VioletBlue);
     height: 30%;
     width: 60%;
@@ -100,6 +103,7 @@ h3 {
     color: var(--PaleBlue);
     font-size: 30px;
     font-weight: 700;
+
 }
 
 .circulo_1_different {
@@ -107,4 +111,12 @@ h3 {
     display: flex;
     font-size: 15px;
 
+}
+
+p{
+    margin: 0;
+}
+
+.no_margin{
+    margin: 3px;
 }
